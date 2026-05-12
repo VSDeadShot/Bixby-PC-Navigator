@@ -1,0 +1,13 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Firebase Admin Credentials (CRITICAL: NEVER COMMIT THIS)
+serviceAccountKey.json
+
+# Environment variables
+.env
+
+# Bixby Studio build artifacts
+.build/
+.bixby/

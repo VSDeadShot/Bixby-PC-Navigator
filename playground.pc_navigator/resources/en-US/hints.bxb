@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint ("Ask PC Navigator to start my dev environment")
+    hint ("Ask PC Navigator to check system health")
+    hint ("Ask PC Navigator to run server backup")
+  }
+}

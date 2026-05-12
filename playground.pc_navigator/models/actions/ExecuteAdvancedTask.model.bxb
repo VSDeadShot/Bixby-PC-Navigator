@@ -1,0 +1,19 @@
+action (ExecuteAdvancedTask) {
+  type(Commit)
+  description (Executes an advanced task or script on the PC.)
+  collect {
+    input (complexTask) {
+      type (ComplexTask)
+      min (Optional) max (One)
+    }
+    input (targetScript) {
+      type (TargetScript)
+      min (Optional) max (One)
+    }
+    input (parameters) {
+      type (TaskParameter)
+      min (Optional) max (One)
+    }
+  }
+  output (TaskResult)
+}

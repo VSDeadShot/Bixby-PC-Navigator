@@ -1,0 +1,17 @@
+dialog (Result) {
+  match: TaskResult (this)
+  
+  if (this.success) {
+    if (exists(this.message)) {
+      template ("${value(this.message)}")
+    } else {
+      template ("Command executed successfully.")
+    }
+  } else {
+    if (exists(this.message)) {
+      template ("There was a problem: ${value(this.message)}")
+    } else {
+      template ("There was a problem executing the command.")
+    }
+  }
+}

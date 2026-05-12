@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (PC Navigator)
+  developer-name (Example Developer)
+  description ("Control your PC with your voice")
+  dispatch-name (PC Navigator)
+  icon-asset (images/icons/bixby_launcher.png)
+  search-keywords {
+    keyword (PC control)
+  }
+}

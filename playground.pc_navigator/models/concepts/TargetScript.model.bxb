@@ -1,0 +1,3 @@
+text (TargetScript) {
+  description (The specific local script or executable to be run, e.g., 'setup_dev.ps1', 'health_check.py'.)
+}

@@ -1,0 +1,11 @@
+structure (TaskResult) {
+  description (The result of sending a command to the PC.)
+  property (success) {
+    type (TaskSuccess)
+    min (Required) max (One)
+  }
+  property (message) {
+    type (TaskMessage)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,7 @@
+enum (ComplexTask) {
+  description (A high-level complex task requested by the user)
+  symbol ("Dev Environment")
+  symbol ("Log Analysis")
+  symbol ("Server Backup")
+  symbol ("System Health")
+}

@@ -1,0 +1,24 @@
+vocab (ComplexTask) {
+  "Dev Environment" {
+    "start my dev environment"
+    "setup my development workspace"
+    "open my coding setup"
+    "prepare for coding"
+  }
+  "Log Analysis" {
+    "analyze the latest logs"
+    "summarize system errors"
+    "check the event viewer logs"
+    "what are the recent errors"
+  }
+  "Server Backup" {
+    "backup the local server"
+    "run the backup script"
+    "save server state"
+  }
+  "System Health" {
+    "run a health check"
+    "check system health"
+    "is my PC okay"
+  }
+}
