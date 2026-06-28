@@ -19,7 +19,7 @@ const serviceAccount = require(serviceAccountPath);
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   // REPLACE THIS with your actual Firebase Database URL
-  databaseURL: process.env.FIREBASE_DB_URL || "https://YOUR-PROJECT-ID.firebaseio.com" 
+  databaseURL: process.env.FIREBASE_DB_URL || "https://bixby-pc-navigator-default-rtdb.firebaseio.com" 
 });
 
 const db = admin.database();
@@ -60,6 +60,9 @@ commandsRef.on('child_added', (snapshot) => {
         break;
       case 'system health':
         scriptToRun = 'health_check.py';
+        break;
+      case 'media control':
+        scriptToRun = 'media_controller.py';
         break;
       default:
         console.log(`Unknown Complex Task: ${complexTask}`);

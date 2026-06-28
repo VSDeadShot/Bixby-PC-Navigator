@@ -9,7 +9,7 @@ export default function executeAdvancedTask(input) {
   const parameters = input ? input.parameters : "None";
 
   // Replace with your actual Firebase Realtime Database URL
-  const firebaseUrl = "https://YOUR-PROJECT-ID.firebaseio.com/commands.json";
+  const firebaseUrl = "https://bixby-pc-navigator-default-rtdb.firebaseio.com/commands.json";
   
   let payload = {
     "complexTask": String(complexTask),
